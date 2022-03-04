@@ -111,6 +111,12 @@ button[type="submit"] {
   font-size: 1.15rem;
   font-weight: 600;
 }
+button[type="submit"]:hover {
+  background-color: #6d835a;
+}
+button[type="submit"]:active {
+  background-color: #475739;
+}
 .small-info-container {
   margin: 35px 50px;
   font-size: 1.125rem;
