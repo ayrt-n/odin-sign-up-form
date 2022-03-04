@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Norse;
+  src: url("fonts/Norse-Bold.otf") format("opentype");
+}
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+}
+
+.image-sidebar {
+  background-image: url(images/image-sidebar.jpg);
+  background-size: cover;
+  width: 40vw;
+}
+
+.logo-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: Norse, sans-serif;
+  font-size: 3.5rem;
+}
