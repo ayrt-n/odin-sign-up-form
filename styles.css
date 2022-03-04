@@ -5,6 +5,8 @@
 
 body {
   font-family: sans-serif;
+  background-color: #f9fafb;
+  color: rgb(33, 33, 33);
   padding: 0;
   margin: 0;
   display: flex;
@@ -31,15 +33,14 @@ body {
 .image-sidebar h1 {
   color: white;
   font-family: Norse, sans-serif;
-  font-size: calc(5rem + 0.3vw);
+  font-size: 6rem;
   margin: 0;
   position: relative;
   top: 20px;
 }
 #odin-logo {
-  height: calc(6.5rem + 0.3vw);
+  height: 7.5rem;
 }
-
 .source {
   color: white;
   text-align: center;
@@ -48,4 +49,13 @@ body {
 }
 .source > a {
   color: white;
+}
+
+.info-container {
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  width: 80%;
+  height: calc(20vh + 120px);
+  padding: 5vh 50px;
 }
