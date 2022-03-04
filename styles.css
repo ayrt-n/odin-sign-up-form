@@ -66,9 +66,22 @@ body {
   height: 200px;
   padding-left: 50px;
   margin-bottom: 25px;
-  box-shadow: 4px 4px 6px rgb(223, 223, 223);
+  border: 1px solid rgb(247, 247, 247);
+  box-shadow: 4px 4px 7px rgb(213, 213, 213);
 }
 
 .btn-container {
   padding-left: 50px;
+}
+
+button[type="submit"] {
+  background-color: #596D48;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 4px 4px 6px rgb(213, 213, 213);
+  padding: 15px 65px;
+
+  color: white;
+  font-size: 1.15rem;
+  font-weight: 600;
 }
