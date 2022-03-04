@@ -58,4 +58,17 @@ body {
   width: 80%;
   height: calc(20vh + 120px);
   padding: 5vh 50px;
+  box-sizing: border-box;
+}
+
+.form-container {
+  background-color: #fff;
+  height: 200px;
+  padding-left: 50px;
+  margin-bottom: 25px;
+  box-shadow: 4px 4px 6px rgb(223, 223, 223);
+}
+
+.btn-container {
+  padding-left: 50px;
 }
