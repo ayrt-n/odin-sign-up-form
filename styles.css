@@ -85,3 +85,13 @@ button[type="submit"] {
   font-size: 1.15rem;
   font-weight: 600;
 }
+
+.small-info-container {
+  padding: 35px 50px;
+  font-size: 1.125rem;
+}
+.small-info-container > a {
+  color: #596D48;
+  text-decoration: none;
+  font-weight: 600;
+}
