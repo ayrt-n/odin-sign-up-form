@@ -4,31 +4,33 @@
 }
 
 body {
-  font-family: 'Fredoka', sans-serif;
+  font-family: sans-serif;
   padding: 0;
   margin: 0;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .image-sidebar {
   background-image: url(images/image-sidebar.jpg);
   background-size: cover;
   width: 40vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo-container {
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: 20vh;
 }
-
 .logo {
   display: flex;
   align-content: center;
   justify-content: center;
   padding: 10px;
 }
-
 .logo > h1 {
   color: white;
   font-family: Norse, sans-serif;
@@ -37,7 +39,16 @@ body {
   position: relative;
   top: 20px;
 }
-
 #odin-logo {
   height: calc(6.5rem + 0.3vw);
+}
+
+.source {
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+.source > a {
+  color: white;
 }
