@@ -10,7 +10,7 @@ Live version of the recreation can be viewed [here](https://ayrt-n.github.io/odi
 
 ## Initial Thoughts
 
-Throughout first half of intermediate HTML and CSS section, the focus has been on form inputs and validation, as well as the associated styling. Current implementation of the landing page utilizes a number of the skills covered, including psuedo-classes and psuedo-elements to dynamically style form and form validation elements.
+Throughout first half of intermediate HTML and CSS section the focus has been on form inputs and validation, as well as the associated styling. Current implementation of the landing page utilizes a number of the skills covered, including psuedo-classes and psuedo-elements to dynamically style form and form validation elements.
 
 The current implementation is styled to alert users that passwords do not match, however, this validation has not yet been implemented. While not part of the project, this could be added in the future utilizing JS.
 
