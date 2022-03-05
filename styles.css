@@ -3,8 +3,12 @@
   src: url("fonts/Norse-Bold.otf") format("opentype");
 }
 
+:root {
+  overflow: hidden;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
   background-color: #f9fafb;
   color: rgb(33, 33, 33);
   padding: 0;
@@ -16,7 +20,7 @@ body {
 .image-sidebar {
   background-image: url(images/image-sidebar.jpg);
   background-size: cover;
-  width: 40vw;
+  width: 35vw;
 
   display: flex;
   flex-direction: column;
@@ -49,6 +53,12 @@ body {
 }
 .source > a {
   color: white;
+}
+
+.main-container {
+  padding: 0;
+  margin: 0;
+  width: 65vw;
 }
 
 .info-container {
@@ -88,6 +98,9 @@ input {
 
   font-size: 0.9rem;
 }
+.form-input label {
+  letter-spacing: 0.05rem;
+}
 .form-input input {
   width: 100%;
 }
@@ -100,6 +113,13 @@ input {
 .form-input {
   width: 265px;
   padding-right: 75px;
+}
+.form-input .error:invalid {
+  border: 1px solid rgb(230, 0, 0);
+}
+.error:invalid + span::after {
+  color: rgb(230, 0, 0);;
+  content: "* Passwords do not match";
 }
 
 .btn-container {
