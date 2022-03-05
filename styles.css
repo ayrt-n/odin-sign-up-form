@@ -87,10 +87,10 @@ body {
 }
 input {
   margin: 0;
-  padding: 0;
+  padding: 0.5rem;
   border: 1px solid #E5E7EB;
   border-radius: 5px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .form-row {
   margin-top: 10px;
@@ -146,9 +146,9 @@ button[type="submit"]:active {
 .small-info-container {
   margin: 35px 50px;
   font-size: 1.125rem;
+  font-weight: 500;
 }
 .small-info-container > a {
   color: #596D48;
   text-decoration: none;
-  font-weight: 600;
 }
