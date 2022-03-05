@@ -68,12 +68,12 @@ body {
 }
 
 .info-container {
-  font-size: 1.5rem;
+  font-size: calc(1.3rem + 0.2vh);
   font-weight: 700;
 
   width: 80%;
   min-height: 30vh;
-  padding: 5vh 0 2.5vh 50px;
+  padding: calc(10vh - 2vw) 0 calc(2.5vh - 2vw) 50px;
   box-sizing: border-box;
 }
 
@@ -90,7 +90,7 @@ body {
 .form-container > h3 {
   padding: 0;
   margin: 0 0 20px 0;
-  font-size: 1.5rem;
+  font-size: calc(1.3rem + 0.2vh);
   font-weight: 700;
 }
 input {
