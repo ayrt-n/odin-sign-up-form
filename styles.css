@@ -4,9 +4,8 @@
 }
 
 :root {
-  overflow: hidden;
+  overflow-x: hidden;
 }
-
 body {
   font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
   background-color: #f9fafb;
@@ -17,6 +16,7 @@ body {
   min-height: 100vh;
 }
 
+/* Styling for image side bar elements */
 .image-sidebar {
   background-image: url(images/image-sidebar.jpg);
   background-size: cover;
@@ -27,12 +27,14 @@ body {
   justify-content: space-between;
 }
 .sidebar-header {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   margin-top: 20vh;
   display: flex;
   align-content: center;
   justify-content: center;
   padding: 10px;
+
+  position: sticky;
 }
 .image-sidebar h1 {
   color: white;
@@ -55,10 +57,14 @@ body {
   color: white;
 }
 
+/* Styling for main container and sub elements */
 .main-container {
   padding: 0;
   margin: 0;
   width: 65vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .info-container {
@@ -66,16 +72,18 @@ body {
   font-weight: 700;
 
   width: 80%;
-  height: calc(20vh + 120px);
-  padding: 5vh 50px;
+  min-height: 30vh;
+  padding: 5vh 0 2.5vh 50px;
   box-sizing: border-box;
 }
 
+/* Form styling */
 .form-container {
   background-color: #fff;
   width: 100%;
   padding: 25px 50px;
   margin-bottom: 25px;
+  flex: 1;
   border: 1px solid rgb(247, 247, 247);
   box-shadow: 4px 4px 6px rgb(213, 213, 213);
 }
@@ -122,6 +130,7 @@ input {
   content: "* Passwords do not match";
 }
 
+/* Button and log in styling */
 .btn-container {
   padding-left: 50px;
   margin-top: 35px;
